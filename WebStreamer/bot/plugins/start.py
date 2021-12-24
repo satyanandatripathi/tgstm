@@ -26,7 +26,7 @@ async def start(b, m):
                 if user.status == "kicked":
                     await b.send_message(
                         chat_id=m.chat.id,
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/HackerDesk).",
+                        text="Sorry Sir, You are Banned to use me. Contact [us](https://t.me/mrwhite7206_bot).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -48,7 +48,7 @@ async def start(b, m):
             except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/linux_repo).",
+                    text="Something went Wrong. Contact [Us](https://t.me/bhaiyajihub).",
                     parse_mode="markdown",
                     disable_web_page_preview=True)
                 return
@@ -56,8 +56,8 @@ async def start(b, m):
             text='**Hello!!\nI am Instant Telegram File to Link Generator Bot.\n\nSend me any file & get the link!**',
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton('Bots Channel', url='https://t.me/UNIQBOTS'), InlineKeyboardButton('Support Group', url='https://t.me/HackerDesk')],
-                    [InlineKeyboardButton('Developer', url='https://t.me/ThanosXD')]
+                    [InlineKeyboardButton('Bots Channel', url='https://t.me/bhaiyajihub'), InlineKeyboardButton('Support', url='https://t.me/mrwhite7206_bot')],
+                    [InlineKeyboardButton('Developer', url='https://t.me/mrstrange_genuine')]
                 ]
             ),
             disable_web_page_preview=True
@@ -69,7 +69,7 @@ async def start(b, m):
                 if user.status == "kicked":
                     await b.send_message(
                         chat_id=m.chat.id,
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/HackerDesk).",
+                        text="Sorry Sir, You are Banned to use me. Contact [Us](https://t.me/bhaiyajihub).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -82,11 +82,8 @@ async def start(b, m):
                         [
                             [
                                 InlineKeyboardButton("🤖 Join Bots Channel", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
-                            ],
-                            [
-                                InlineKeyboardButton("🔄 Refresh / Try Again",
-                                                     url=f"https://t.me/UNIQFile2LinkBot?start=UNIQBOTS_{usr_cmd}")
                             ]
+                            
                         ]
                     ),
                     parse_mode="markdown"
@@ -95,7 +92,7 @@ async def start(b, m):
             except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/HACKERDESK).",
+                    text="Something went Wrong. Contact [Us](https://t.me/bhaiyajihub).",
                     parse_mode="markdown",
                     disable_web_page_preview=True)
                 return
@@ -145,7 +142,7 @@ async def help_handler(bot, message):
             if user.status == "kicked":
                 await bot.send_message(
                     chat_id=message.chat.id,
-                    text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/HackerDesk).",
+                    text="Sorry Sir, You are Banned to use me. Contact [Us](https://t.me/mrwhite7206_bot).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -167,7 +164,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="Something went Wrong. Contact my [Support Group](https://t.me/HackerDesk).",
+                text="Something went Wrong. Contact [Us](https://t.me/mrwhite7206_bot).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
@@ -177,8 +174,8 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Support Group", url="https://t.me/HackerDesk"), InlineKeyboardButton("Bots Channel", url="https://t.me/UNIQBOTS")],
-                [InlineKeyboardButton("Developer", url="https://t.me/ThanosXD")]
+                [InlineKeyboardButton("Support", url="https://t.me/mrwhite7206_bot"), InlineKeyboardButton("Bots Channel", url="https://t.me/bhaiyajihub")],
+                [InlineKeyboardButton("Developer", url="https://t.me/mrstrange_genuine")]
             ]
         )
     )
