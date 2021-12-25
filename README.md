@@ -1,3 +1,3 @@
 # tgstm
 
-[Deploy](https://heroku.com/deploy?template=https://github.com/satyanandatripathi/tgstrm)
+[Deploy](https://heroku.com/deploy?template=https://github.com/satyanandatripathi/tgstm)
