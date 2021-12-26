@@ -120,7 +120,7 @@ async def start(b, m):
                                      Var.PORT,
                                      get_msg.message_id)
 
-        msg_text = "Hey!!\n💥 Your Link Generated! 💥\n\n📂 **File Name:** `{}`\n**File Size:** `{}`\n\n📥 **Download Link:** `{}`"
+        msg_text = "Hey!!\n💥 Your Link Generated! 💥\n\n📂 **File Name:** `{}`\n**File Size:** `{}`\n\n📥 **Download Link:** `{}` \n\n 🚸 | Powered by @bhaiyajihub"
         await m.reply_text(
             text=msg_text.format(file_name, file_size, stream_link),
             parse_mode="Markdown",
@@ -169,7 +169,7 @@ async def help_handler(bot, message):
                 disable_web_page_preview=True)
             return
     await message.reply_text(
-        text="**➽ Send me any File I will provide External Direct Download Link!\n\n➽ Also I am Supported in Channels Too 😍😍.\n\n➽ Add me to Channel as Admin to Make Me Workable!**",
+        text="**➽ Send me any File I will provide External Direct Download Link!\n\n➽ Also I am Supported in Channels Too 😍😍.\n\n➽ Add me to Channel as Admin to Make Me Workable! \n\n 🚸 | Powered by @bhaiyajihub**",
         parse_mode="Markdown",
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
